@@ -1,0 +1,42 @@
+Circuit: * C:\Users\rohan\Downloads\project_zip\5_Ring Oscillator.asc
+
+WARNING: Node X1:NC_01 is floating.
+WARNING: Node X1:N001 is floating.
+WARNING: Node X2:NC_01 is floating.
+WARNING: Node X2:N001 is floating.
+WARNING: Node X3:NC_01 is floating.
+WARNING: Node X3:N001 is floating.
+WARNING: Node X4:NC_01 is floating.
+WARNING: Node X4:N001 is floating.
+WARNING: Node X5:NC_01 is floating.
+WARNING: Node X5:N001 is floating.
+
+WARNING: Less than two connections to node X1:NC_01.  This node is used by M:X1:2.
+WARNING: Less than two connections to node X1:N001.  This node is used by C:X1:1.
+WARNING: Less than two connections to node X2:NC_01.  This node is used by M:X2:2.
+WARNING: Less than two connections to node X2:N001.  This node is used by C:X2:1.
+WARNING: Less than two connections to node X3:NC_01.  This node is used by M:X3:2.
+WARNING: Less than two connections to node X3:N001.  This node is used by C:X3:1.
+WARNING: Less than two connections to node X4:NC_01.  This node is used by M:X4:2.
+WARNING: Less than two connections to node X4:N001.  This node is used by C:X4:1.
+WARNING: Less than two connections to node X5:NC_01.  This node is used by M:X5:2.
+WARNING: Less than two connections to node X5:N001.  This node is used by C:X5:1.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Nov 14 20:19:41 2021
+Total elapsed time: 0.316 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3864
+traniter = 3826
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 65
+fillins = 20
+solver = Normal
+Matrix Compiler1: 8.57 KB object code size  5.0/2.2/[1.4]
+Matrix Compiler2: 7.07 KB object code size  1.9/2.4/[1.1]
+

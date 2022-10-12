@@ -1,0 +1,21 @@
+* C:\Users\rohan\Downloads\project_zip\Aec_project_Vth.asc
+C2 Vout N003 10µ
+R4 Vout 0 1k
+V1 V1 0 0
+R2 V1 N003 1k
+M1 N003 N004 0 0 nmos1 l=50n w=500n
+V2 N004 0 0
+C1 Vout N001 10µ
+R1 Vout 0 1k
+R3 V1 N001 1k
+V4 N002 0 0
+M2 N001 N002 0 0 Si7336ADP
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\rohan\Documents\LTspiceXVII\lib\cmp\standard.mos
+.dc V1 0 15 0.01
+;tran 5ms
+.include BSIM4_model1.txt
+;dc V1 0 15 0.01
+.backanno
+.end

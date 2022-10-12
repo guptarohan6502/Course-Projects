@@ -1,0 +1,22 @@
+* C:\Users\rohan\Downloads\project_zip\3_Ring Oscillator.asc
+XX1 N001 osc not_cmos
+XX2 N002 N001 not_cmos
+XX3 osc N002 not_cmos
+
+* block symbol definitions
+.subckt not_cmos OUT IN
+M1 OUT IN 0 0 N_50n l=50n w=500n
+M2 VDD IN OUT NC_01 P_50n l=50n w=1u
+VDD VDD 0 1
+C1 N001 0 1000p
+.include BSIM4_model.txt
+.ends not_cmos
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\rohan\Documents\LTspiceXVII\lib\cmp\standard.mos
+.include BSIM4_model.txt
+.ic V(osc)=0
+.tran .5n
+.backanno
+.end

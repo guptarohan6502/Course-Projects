@@ -1,0 +1,32 @@
+Circuit: * C:\Users\rohan\Downloads\project_zip\Ring Oscillator.asc
+
+WARNING: Node X1:NC_01 is floating.
+WARNING: Node X2:NC_01 is floating.
+WARNING: Node X3:NC_01 is floating.
+WARNING: Node X4:NC_01 is floating.
+WARNING: Node X5:NC_01 is floating.
+
+WARNING: Less than two connections to node X1:NC_01.  This node is used by M:X1:2.
+WARNING: Less than two connections to node X2:NC_01.  This node is used by M:X2:2.
+WARNING: Less than two connections to node X3:NC_01.  This node is used by M:X3:2.
+WARNING: Less than two connections to node X4:NC_01.  This node is used by M:X4:2.
+WARNING: Less than two connections to node X5:NC_01.  This node is used by M:X5:2.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Nov 14 20:13:32 2021
+Total elapsed time: 0.311 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2120
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 60
+fillins = 20
+solver = Normal
+Matrix Compiler1: 8.50 KB object code size  5.0/1.9/[1.5]
+Matrix Compiler2: 6.88 KB object code size  1.7/2.4/[1.3]
+
